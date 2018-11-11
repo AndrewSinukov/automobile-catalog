@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/titleNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:textSize="20sp"
+        android:hint="Title News: " />
+
+
+    <TextView
+        android:id="@+id/tvImageToUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:hint="Image News:* "
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageNews"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/image_article"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:src="@drawable/ic_launcher"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btUploadImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Upload image" />
+
+
+    <EditText
+        android:id="@+id/descriptionNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Description News: "
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:scrollHorizontally="false" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_article"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+
+        <Button
+            android:id="@+id/addArticle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".5"
+            android:background="@color/colorPrimary"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/cancelArticle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@color/colorPrimary"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

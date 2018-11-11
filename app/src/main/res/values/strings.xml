@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Auto Catalog</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_article">Title</string>
+    <string name="image_article">Image</string>
+    <string name="description_article">Description</string>
+
+    <string name="do_not_show_splash">Don\'t show splash</string>
+    <string name="language">Language</string>
+
+    <string name="field_required_title">Field title is required </string>
+    <string name="field_required_image">Field image is required </string>
+    <string name="field_required">Fields title and image is required </string>
+
+    <string name="tv_title">Title:</string>
+    <string name="tv_description">Description:</string>
+    <string name="tv_date">Date:</string>
+
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_title">Upload brands</string>
+
+    <string name="toast_save_images">Images save</string>
+    <string name="toast_success_brand_save">Brand save</string>
+    <string name="toast_success_car_save">Car save</string>
+    <string name="toast_success_news_save">News save</string>
+
+    <string name="progress_dialog_title">Upload images</string>
+    <string name="progress_dialog_message">Loading....</string>
+
+</resources>
